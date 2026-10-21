@@ -1,0 +1,23 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Large datasets and model files
+University-Release/
+*.pth
+*.pt
+*.ckpt
+pytorch_result.mat
+
+# Local coordinate and evaluation data
+kml_coordinates.csv
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
